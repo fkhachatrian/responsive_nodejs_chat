@@ -23,7 +23,7 @@ NodeJs Mongodb Socket.io Realtime chat
      
      $ npm install
        
-     $ node server.js  
+     $ node app.js  
      
 _Open your favourite browser at localhost:3000_   
  
