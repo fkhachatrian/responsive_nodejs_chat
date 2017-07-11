@@ -1,0 +1,9 @@
+{
+  "apps":[
+    {
+      "name": "chat-name-from-config",
+      "script": "./app.js",
+      "watch": true
+    }
+  ]
+}
