@@ -2,7 +2,7 @@ var mongo = require('mongodb').MongoClient;
 
 
 exports.mognolizer = function (io,socket, users, WhisperChek) {
-    mongo.connect('mongodb://admin:admin@ds151752.mlab.com:51752/chatme', function (err, db) {
+    mongo.connect('mongodb://127.0.0.1/chat', function (err, db) {
         if (err) {
             throw err;
         }
